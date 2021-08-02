@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/ico" sizes="16*16"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- TAILWIND -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/3f1bd67616.js" crossorigin="anonymous"></script>
+    <!-- ANNIMATION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <!-- JQUERY CODE -->
+    <script>
+      $(document).ready(function(){
+          $('#icon').click(function(){
+              $('ul').toggleClass('show');
+          })
+      })
+  </script>
+</head>
+<body>
+    <!---------------------------------HEADER---------------------------------------->
+    <header>
+        <div class="header">
+            <!-- NAVBAR -->
+            <nav>
+              <label class="logo"><span class="logoW">G</span>o<span class="logoW">T</span>ail</label>
+              <ul>
+                  <li><a class="active" href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Pages</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact Us</a></li>
+              </ul>
+              <label id="icon">
+                  <i class="fas fa-bars"></i>
+              </label>
+          </nav>
+        </div>
+    </header>
+</body>
+</html>
