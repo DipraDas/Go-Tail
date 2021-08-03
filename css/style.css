@@ -19,15 +19,18 @@
 .color-3{
     color: #555555;
 }
-
+.btn{
+    background-image: linear-gradient(135deg,#2da1ee,#7e32dc);
+}
 
 /* ---------------------HEADER-------------------- */
 .header{
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/f.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 1700px;
+    position: relative;
 }
 nav{
     background-color: rgba(245, 252, 255, 0.9);
@@ -35,6 +38,7 @@ nav{
     width:100%;
     position: fixed;
     box-shadow: 0px -2px 6px 0px black;
+    z-index: 100;
 }
 .logoW{
     font-weight: 700;
@@ -85,13 +89,30 @@ nav #icon{
     background-color: #7E32DC;
     color: white;    
 }
+.h-gradient{
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    position: absolute;
+    bottom: 0;
+    
+}
+/* ---------------------SEC-1-------------------- */
+.sec-1{
+    position: relative;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(243, 251, 255));
+}
+.s1-grad{
+    background-image: linear-gradient(135deg,#2da1ee,#7e32dc);
+}
+
+.s1-shadow{
+    box-shadow: 0px 0px 10px 1px #adadad;
+}
 
 
 
-
-
-
-
+/*  */
 
 
 
@@ -140,12 +161,22 @@ nav #icon{
     nav ul.show{
         left: 0;
     }
+    .spe{
+        margin-top: 160px;
+    }
 }
 
 @media (max-width:639px){
     .header-main-content{
         background-color: white;
-        height: 900px;
+        height: 1300px;
+        width: 155%;
     }
-
+    .sec-1{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .spe{
+        margin-top: 160px;
+    }
 }
