@@ -55,12 +55,14 @@
     padding: 5px 10px;
     border-radius: 50px;
     transition: .3s;
+    filter: grayscale(100%);
 }
 .s5sp:hover{
     background-color: white;
     padding: 5px 10px;
     border-radius: 50px;
-    box-shadow: 0 0 30px 2px #9c9c9c;
+    box-shadow: 0 0 35px 2px #d4d4d4;
+    filter: grayscale(0);
 }
 
 /* ---------------------HEADER-------------------- */
