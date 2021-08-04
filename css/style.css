@@ -230,4 +230,7 @@ nav #icon{
     .s3con{
         flex-direction: column;
     }
+    .s3cl{
+        padding: 0;
+    }
 }
