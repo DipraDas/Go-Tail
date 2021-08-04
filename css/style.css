@@ -41,6 +41,9 @@
     background-image: linear-gradient(135deg,#2da1ee,#7e32dc);
     box-shadow: inset 1px -1px 4px 1px rgb(125, 218, 255);
 }
+.imgwidth{
+    width: 600px;
+}
 
 /* ---------------------HEADER-------------------- */
 .header{
@@ -138,10 +141,11 @@ nav #icon{
 .sec-up:hover{
     transform: scale(1.1);
 }
-/* ---------------------SEC-3-------------------- */
+/* ---------------------SEC-2-------------------- */
 .sec-2{
     background-image: linear-gradient(rgb(244, 251, 255),rgba(255, 255, 255, 0));
 }
+/* ---------------------SEC-3-------------------- */
 
 
 
@@ -161,6 +165,9 @@ nav #icon{
     }
     .r-color{
         display: none;
+    }
+    .img-width{
+        width: 3500px;
     }
 }
 @media (max-width:955px){
@@ -216,5 +223,11 @@ nav #icon{
     .sec-2{
         width: 155%;
         padding-top: 1100px;
+    }
+    .sec-3{
+        width: 155%;
+    }
+    .s3con{
+        flex-direction: column;
     }
 }
