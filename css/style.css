@@ -50,8 +50,6 @@
 .s5bg{
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(243, 251, 255));
 }
-
-
 .s5sp{
     padding: 5px 10px;
     border-radius: 50px;
@@ -234,14 +232,26 @@ nav #icon{
 .s6card:hover{
     transform: scale(1.1);
 }
-.wave{
-    z-index: 10;
+
+/* ---------------------SEC-7-------------------- */
+.s7bg{
+    background-image: linear-gradient(#f0f0f0, rgb(255, 255, 255));
+}
+.s7xbg{
+    background-image: linear-gradient(135deg,#5732dc,#BA43DD);
 }
 
-
-
-
-
+.footer{
+    background-image: linear-gradient(#f0f0f0, rgb(255, 255, 255));
+}
+.ic{
+    box-shadow: 0px 0px 18px 1px #c1c1c1;
+    transition: 0.5s;
+}
+.ic:hover{
+    background-color: #7E32DC;
+    color: white;
+}
 
 @media (max-width: 1048px){
     label.logo{
@@ -341,6 +351,12 @@ nav #icon{
     }
     .s6card1{
         margin-bottom: 170px;
+    }
+    .footer{
+        width: 160%;
+    }
+    .footerf{
+        width: 160%;
     }
 }
 @media (min-width :640px) and (max-width: 1280px){
